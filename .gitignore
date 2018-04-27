@@ -24,6 +24,7 @@ Thumbs.db
 
 # temporary folders
 .tmp
+/dist
 
 ### Node ###
 logs
