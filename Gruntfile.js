@@ -43,6 +43,7 @@ module.exports = function(grunt) {
       dist: {
         src: [
           '.tmp',
+          '.grunt',
           '<%= prj.dist %>/**/*'
         ]
       }
@@ -87,6 +88,13 @@ module.exports = function(grunt) {
           }
         ]
       }
+    },
+    'gh-pages': {
+      options: {
+        base: 'dist',
+        message: 'Published to a gh-pages branch'
+      },
+      src: '**/*'
     },
 
     // HTML tasks
@@ -214,5 +222,11 @@ module.exports = function(grunt) {
     'cssmin:generated',
     'copy',
     'usemin'
+  ]);
+
+  // Deploy tasks
+  grunt.registerTask('deploy', [
+    'build',
+    'gh-pages'
   ]);
 };
