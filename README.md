@@ -1,13 +1,13 @@
 # Grunt Guide
 
 - [Grunt](#Grunt)
-  * [Grunt vs Gulp ?](#Grunt vs Gulp ?)
+  * [Grunt-vs-Gulp-?](#Grunt-vs-Gulp-?)
 - [Install](#Install)
-  * [Grunt CLI](#Grunt CLI)
-  * [Gruntfile.js / Package.json](#Gruntfile.js / Package.json)
+  * [Grunt-CLI](#Grunt-CLI)
+  * [Gruntfile.js/Package.json](#Gruntfile.js/Package.json)
     + [Gruntfile.js](#Gruntfile.js)
     + [Package.json](#Package.json)
-- [주요 플러그인)(#주요 플러그인)
+- [주요-플러그인)(#주요-플러그인)
   * [load-grunt-tasks](#load-grunt-tasks)
   * [time-grunt](#time-grunt)
   * [grunt-contrib-watch](#grunt-contrib-watch)
@@ -23,7 +23,7 @@
 
 Grunt는 자바스크립트 기반의 자동화 도구로써, 개발시 빌드 작업 중 많은 기능을 자동으로 수행하여 불필요한 리소스를 절약하고, 실수를 줄일 수 있어 굉장히 유용한 툴이다. 예를 들어 코드 디버깅, HTML/CSS/JS 파일 통합 및 압축 등을 빠르게 수행하며, 이와 비슷한 도구로 Gulp가 존재한다.	
 
-### Grunt vs Gulp ?
+### Grunt-vs-Gulp-?
 
 Gulp는 Grunt에 비해 코드가 비교적 간단한 편이며, 일반적으로 한 번에 하나의 작업만 처리가 가능한 Grunt와 달리 동시에 여러 작업을 처리할 수 있다. 또한, 요청 후 한번에 결과를 받는 I/O 방식인 Grunt와 달리 Gulp는 이벤트 중간중간 전달받는 방식인 Stream 기반으로 수행 속도도 더 빠르다. 플러그인 지원에 관해서는 [Gulp](https://gulpjs.com/plugins/)는 약 3,500개, [Grunt](https://gruntjs.com/plugins)는 약 6,400개로 Grunt가 좀더 다양한 플러그인이 존재한다.
 
@@ -33,7 +33,7 @@ Gulp는 Grunt에 비해 코드가 비교적 간단한 편이며, 일반적으로
 
 (`Node.js`가 설치되어있다는 가정하에 설명)
 
-### Grunt CLI
+### Grunt-CLI
 
 Grunt's Command Line Interface(CLI)를 설치하면, 콘솔 어디서나 `grunt`를 실행할 수 있다.
 
@@ -41,7 +41,7 @@ Grunt's Command Line Interface(CLI)를 설치하면, 콘솔 어디서나 `grunt`
 $ npm install -g grunt-cli
 ```
 
-### Gruntfile.js / Package.json
+### Gruntfile.js/Package.json
 
 프로젝트 수행시 `gruntfile.js` 와 `package.json` 파일이 존재해야 한다.
 직접 파일을 만들 수도 있지만 `grunt-init`이라는 템플릿 생성 도구를 통해 생성하는 방법도 있다.
@@ -137,7 +137,7 @@ $ npm install -g grunt-cli
   > $ npm install 플러그인명 --save-dev
   > ```
 
-## 주요 플러그인
+## 주요-플러그인
 
 앞서 다룬 기본적인 내용을 토대로, 프로젝트 환경 최적화를 위한 주요 플러그인을 소개하겠다.
 
