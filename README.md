@@ -4,7 +4,7 @@
   * [Grunt-vs-Gulp](#grunt-vs-gulp)
 - [Install](#install)
   * [Grunt-CLI](#grunt-cli)
-  * [Gruntfile.js/Package.json](#gruntfile.js/package.json)
+  * [Gruntfile.js/Package.json](#gruntfilejspackagejson)
     * [Gruntfile.js](#gruntfile.js)
     * [Package.json](#package.json)
 - [주요플러그인](#주요플러그인)
