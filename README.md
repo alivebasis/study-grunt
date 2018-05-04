@@ -7,7 +7,7 @@
   * [Gruntfile.js/Package.json](#Gruntfile.js/Package.json)
     + [Gruntfile.js](#Gruntfile.js)
     + [Package.json](#Package.json)
-- [주요-플러그인)(#주요-플러그인)
+- [Plugin)(#Plugin)
   * [load-grunt-tasks](#load-grunt-tasks)
   * [time-grunt](#time-grunt)
   * [grunt-contrib-watch](#grunt-contrib-watch)
@@ -137,7 +137,7 @@ $ npm install -g grunt-cli
   > $ npm install 플러그인명 --save-dev
   > ```
 
-## 주요-플러그인
+## Plugin
 
 앞서 다룬 기본적인 내용을 토대로, 프로젝트 환경 최적화를 위한 주요 플러그인을 소개하겠다.
 
