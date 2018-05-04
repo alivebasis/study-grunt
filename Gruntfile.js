@@ -6,9 +6,9 @@ module.exports = function(grunt) {
   require('time-grunt')(grunt);
 
   var appConfig = {
-      app: 'src', // source code
-      dist: 'dist' // destination
-    };
+    app: 'src', // source code
+    dist: 'dist' // destination
+  };
 
   // Project configuration.
   grunt.initConfig({
@@ -213,14 +213,14 @@ module.exports = function(grunt) {
   // Build tasks
   grunt.registerTask('build', [
     'clean',
-    'prettify',
     'jshint',
     'imagemin',
     'useminPrepare',
-    'concat:generated',
-    'uglify:generated',
-    'cssmin:generated',
+    'concat',
+    'uglify',
+    'cssmin',
     'copy',
+    'prettify',
     'usemin'
   ]);
 
